@@ -314,4 +314,68 @@ Before running the notebooks, make sure you have:
 
 ### Installation
 
-Clone the
+Clone the repository:
+
+```bash
+git clone https://github.com/0Mariam-Salem0/NASA-CMAPSS-RUL-Prediction.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd NASA-CMAPSS-RUL-Prediction
+```
+
+Install the required Python libraries:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn tensorflow jupyter sqlalchemy pyodbc
+```
+
+### Running the Project
+
+1. Download and prepare the NASA C-MAPSS dataset files.
+2. Place the dataset files in the appropriate data directory.
+3. Open Jupyter Notebook.
+4. Run the notebooks corresponding to FD001, FD002, FD003, and FD004.
+5. Generate and export the prediction results.
+6. Execute the SQL setup script in SQL Server.
+7. Load the prediction results into the database.
+8. Connect Power BI to the database and explore the dashboard.
+
+---
+
+## 📄 Project Documentation
+
+Detailed project documentation is available here:
+
+[View Project Documentation](Documentation.pdf)
+
+The documentation provides additional information about the project methodology, implementation, and results.
+
+---
+
+## 🔮 Future Improvements
+
+Potential directions for extending the project include:
+
+- Hyperparameter optimization and systematic model comparison.
+- Experimenting with additional sequence-learning architectures.
+- Improving prediction accuracy across complex operating conditions.
+- Implementing real-time engine health monitoring.
+- Integrating streaming data pipelines for continuous predictive maintenance.
+- Developing automated maintenance alerts based on predicted RUL.
+
+---
+
+## 🔑 Key Takeaways
+
+This project demonstrates an end-to-end predictive maintenance workflow that combines:
+
+- Multivariate time-series analysis.
+- Deep learning-based RUL prediction.
+- LSTM and BiLSTM model development.
+- Structured database integration.
+- Interactive business intelligence reporting.
+
+By connecting machine learning predictions with SQL Server and Power BI, the project demonstrates how predictive analytics can support data-driven aircraft engine maintenance decisions.
