@@ -8,7 +8,7 @@ Explore the interactive Power BI dashboard for the NASA Turbofan Engine Remainin
 
 ## Dashboard Preview
 
-![NASA RUL Dashboard](../dashboard_preview.png)
+![NASA RUL Dashboard](dashboard_preview.png)
 
 ## Key Features
 
